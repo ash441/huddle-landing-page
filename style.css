@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(242, 233, 233);
+}
+
+.button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+/* ------------navbar ------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    
+
+}
+.nav-button {
+
+    
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 0px 5px;
+    background-color: transparent;
+   
+}
+.nav-button a {
+    text-decoration: none;
+    color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 15px;
+
+}
+
+.hero-button {
+
+    padding: 20px 70px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 600px;
+    width: auto;
+}
+
+.mock-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rating {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  
+}
+
+.rating h1 {
+    font-size: 80px;
+}
+
+.grw-together {
+
+    display: flex;
+   
+}
+.flowing-conv {
+
+    display:flex;
+  
+
+}
+
+.your-users {
+    display: flex;
+}
+
+.img-size img {
+
+    height: 90%;
+    width: 90%;
+}
+.cent-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

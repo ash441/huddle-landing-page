@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
@@ -18,15 +18,18 @@
 
   <!-- ======navbar section ===== -->
 
-  <div class="navbar">
+  
     <nav>
       <div class="nav-logo">
+        <img src="./images/logo.svg" alt="">
 
       </div>
-      <button class="nav-button button">
+      <button class="nav-button "><a href="#">Try it Free</a>
 
       </button>
     </nav>
+
+  
 
     <!-- ==========end navbar section======= -->
 
@@ -57,6 +60,8 @@
     <!-- ===========screen mockup ========= -->
      <section class="mock-up">
 
+      <img src="./images/screen-mockups.svg" alt="">
+
      
     
     </section>
@@ -69,7 +74,7 @@
    
       <div class="rating-left">
         <div class="com-formed">
-          <div class="logo"></div>
+          <div class="logo"><img src="./images/icon-communities.svg" alt=""></div>
           <h1>1.4k+</h1>
           <p>Communities Formed</p>
         </div>
@@ -77,9 +82,7 @@
       </div>
       <div class="rating-right">
         <div class="msgs-sent">
-          <div class="msgs-logo">
-
-          </div>
+          <div class="msgs-logo"><img src="./images/icon-messages.svg" alt=""></div>
           <h1>2.7m+</h1>
           <p>Messages Sent</p>
         </div>
@@ -93,13 +96,13 @@
     <!-- ==========Grow together section====== -->
 
     <section class="grw-together">
-      <div class="grow-hd">
+      <div class="grow-hd cent-all">
         <h1 class="heading">Grow Together</h1>
         <p class="para">Generate meaningful discussions with your audience and build a strong, loyal community. 
           Think of the insightful conversations you miss out on with a feedback form. </p>
 
       </div>
-      <div class="grow-img">
+      <div class="grow-img img-size"><img src="./images/illustration-grow-together.svg" alt="">
 
       </div>
 
@@ -112,10 +115,10 @@
 
 <section class="flowing-conv">
 
-  <div class="flowing-img">
+  <div class="flowing-img img-size"><img src="./images/illustration-flowing-conversation.svg" alt="">
 
   </div>
-  <div class="flowing-hd">
+  <div class="flowing-hd cent-all">
     <h1 class="heading">Flowing Conversations</h1>
     <p class="para">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
       just-in-time loading for a more natural flow.</p>
@@ -130,14 +133,15 @@
 
 <!-- =========your user section ========== -->
 <section class="your-users">
+  
 
-  <div class="your-usrs">
+  <div class="your-usrs cent-all">
 
     <h1 class="heading">Your Users</h1>
     <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,once signed in to your app, your users can start chatting immediately.</p>
   </div>
 
-  <div class="your-usrs-img">
+  <div class="your-usrs-img img-size"><img src="./images/illustration-your-users.svg" alt="">
 
   </div>
 
@@ -168,6 +172,37 @@
 <!-- =============footer section============= -->
 
 <footer class="footer">
+   <div class="left-footer">
+   <div class="footer-logo">
+  
+  </div>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex numquam facere ad. Illo, tempore quam.</p>
+  <div class="ph-no">
+    <i></i><p>Phone: +1-543-123-4567</p>
+    <i></i><p>example@huddle.com</p>
+  </div>
+
+    <div class="social-icon">
+
+    </div>
+
+    <div class="right-footer">
+
+      <h2>Newsletter</h2>
+      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+        send you spam or pass on your email address</p>
+
+        <div class="footer-subs">
+          <input type="text">
+          <button class="footer-button button">Subscribe</button>
+        </div>
+
+    </div>
+
+
+  </div>
+
+
 
 </footer>
 
