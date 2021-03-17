@@ -5,8 +5,11 @@
 }
 
 body {
-    background-color: rgb(242, 233, 233);
+    background-color: rgb(189, 237, 189);
 }
+
+
+
 
 .button {
     background-color: hsl(322, 100%, 66%);
@@ -45,6 +48,15 @@ nav {
     border-radius: 30px;
     border: none;
     font-size: 20px;
+    margin-top: 30px;
+}
+.intro {
+    margin-top: 30px;
+    width: 40%;
+    font-size: 20px;
+}
+.heading {
+    font-size: 30px;
 }
 
 .container {
@@ -67,7 +79,8 @@ nav {
 .rating {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 30px;
+    height: 300px;
+    margin-top: 50px;
   
 }
 
@@ -78,7 +91,35 @@ nav {
 .grw-together {
 
     display: flex;
+    background-image: url('./images/bg-section-top-desktop-1.svg');
+    /* background-image: url('./images/bg-section-bottom-desktop-1.svg'); */
+    background-repeat:no-repeat;
+    background-position-x: center;
    
+    
+   
+}
+.img-bottom {
+
+    position: absolute;
+    top: 1956px;
+    z-index: -1;
+    height: 40%;
+    width: 99.9%;
+    
+   
+   
+
+    
+}
+.img-top {
+    
+    position: absolute;
+    z-index: -1;
+    height: 50%;
+    width: 98%;
+
+
 }
 .flowing-conv {
 
